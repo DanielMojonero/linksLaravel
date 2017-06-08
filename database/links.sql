@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS examen;
+
+CREATE DATABASE examen;
+
+USE examen;
+
+DROP TABLE IF EXISTS examen;
+
+CREATE TABLE links (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	title varchar(50)
+);
